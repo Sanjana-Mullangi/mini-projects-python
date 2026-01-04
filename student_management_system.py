@@ -6,9 +6,9 @@ def connect_db():
     try:
         db = pymysql.connect(
             host="localhost",
-            user="root",
-            passwd="useratheal",
-            database="office"
+            user="user_name",
+            passwd="your_password",
+            database="database_name"
         )
         return db
     except pymysql.MySQLError as e:
@@ -209,5 +209,5 @@ def student_marks_management():
 
 # Run the program
 student_marks_management()
-S
+
  
